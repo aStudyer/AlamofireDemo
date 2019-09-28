@@ -6,6 +6,7 @@ target 'AlamofireDemo' do
   use_frameworks!
 
   # Pods for AlamofireDemo
-pod 'Alamofire'
-
+  pod 'Alamofire'
+  pod 'HHUIBase_Swift', :git => 'https://github.com/aStudyer/HHUIBase_Swift.git'
+  
 end

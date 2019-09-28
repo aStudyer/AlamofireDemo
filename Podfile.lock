@@ -1,16 +1,32 @@
 PODS:
   - Alamofire (4.8.2)
+  - HHUIBase_Swift (0.1.2):
+    - MJExtension
+  - MJExtension (3.1.0)
 
 DEPENDENCIES:
   - Alamofire
+  - HHUIBase_Swift (from `https://github.com/aStudyer/HHUIBase_Swift.git`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - MJExtension
+
+EXTERNAL SOURCES:
+  HHUIBase_Swift:
+    :git: https://github.com/aStudyer/HHUIBase_Swift.git
+
+CHECKOUT OPTIONS:
+  HHUIBase_Swift:
+    :commit: c8781894adbc85df0bc8c6a76ef2dce8be709c81
+    :git: https://github.com/aStudyer/HHUIBase_Swift.git
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  HHUIBase_Swift: 1f0f9690d2c528290788f69d5ca6e2140d004549
+  MJExtension: 6b69b3bef2864fd550ce1a184eda219e321209d2
 
-PODFILE CHECKSUM: 15775799fe35779fb5cb63511d6ae54301a72512
+PODFILE CHECKSUM: 808abfa49cfdd7da6601b4792d00763575344a37
 
 COCOAPODS: 1.7.5

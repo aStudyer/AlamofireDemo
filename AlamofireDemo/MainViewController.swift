@@ -6,15 +6,15 @@
 //  Copyright © 2019 aStudyer. All rights reserved.
 //
 
-import UIKit
+import HHUIBase_Swift
 
-class ViewController: UIViewController {
+class MainViewController: BaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "首页"
+        
     }
-
 
 }
 
